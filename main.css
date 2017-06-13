@@ -1,0 +1,53 @@
+/*
+numbers bg color: #55c059
+operator color: #7ac57d
+*/
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+container{
+  display: flex;
+  flex-flow: row wrap;
+  background: #55c059;
+  color: white;
+  margin: 0;
+  height: 100vh;
+  font-size: 5vh;
+}
+.clear, .operators-wrapper{
+  flex-basis: 25%;
+}
+.top-wrapper{
+  flex-basis: 100%;
+  display: flex;
+  height: 20%;
+}
+.clear, .numbers, .operator, .special-ops{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+}
+.display, .numbers-wrapper{
+  flex-basis: 75%;
+}
+.numbers-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  height: 80%;
+}
+.operator{
+  height: 25%;
+  background: #7ac57d;
+}
+.numbers, .special-ops{
+  flex-basis: calc(100%/3);
+  height: 25%;
+}
+.clear:hover, .special-ops:hover {
+  background:  #7ac57d;
+}
