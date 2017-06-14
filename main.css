@@ -26,7 +26,7 @@ container{
   display: flex;
   height: 20%;
 }
-.clear, .numbers, .operator, .special-ops{
+.clear, .numbers, .operators, .special-ops{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,7 +40,7 @@ container{
   flex-wrap: wrap;
   height: 80%;
 }
-.operator{
+.operators{
   height: 25%;
   background: #7ac57d;
 }

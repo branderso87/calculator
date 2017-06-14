@@ -1,17 +1,13 @@
-// create onClick event for all number keys so that all numbers are displayed.
-let input = document.querySelector(".display");
-let number = document.querySelectorAll(".numbers")
-let current = "0";
-let memory = "0";
+const numbers = document.querySelectorAll(".numbers")
+let input = [];
 
+for(i = 0; i < numbers.length; i++){
+  numbers[i].addEventListener("click", addNumbers());
 
-function mainDisplay(number){
+  function addNumbers(){
+    input.push(numbers[i].id); console.log(input)
+  }
 
-  // if(current === 0){
-  //   current = number;
-  // }else{
-  //   current = current + number;
-  // }
-  // input.innerHTML("current");
-  input.innerHTML(number);
+// rewrite index.html so that all input keys have class = keys so we can consistently loop through keys.length.
+// 
 }
