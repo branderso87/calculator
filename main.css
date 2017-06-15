@@ -34,6 +34,7 @@ container{
   flex-basis: 75%;
   border: 1px solid white;
   height: 20vh;
+  font-size: 10vw;
 }
 .numbers-wrapper{
   display: flex;

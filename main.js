@@ -24,8 +24,8 @@ for(i = 0; i < keys.length; i++){
         input.push("*")
         break
       default:// all other numbers
-        input.push(parseInt(elementID) )
-        theDisplay.insertAdjacentHTML('beforeend', elementID)
-}
-  });
+        input.push(elementID)
+        theDisplay.textContent = elementID
+    }
+  })
 }
