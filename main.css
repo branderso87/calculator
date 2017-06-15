@@ -51,3 +51,16 @@ container{
 #clear:hover, #equals:hover, #decimal:hover{
   background:  #7ac57d;
 }
+
+@media (min-width:500px){
+  container{
+    margin: 5%;
+  }
+
+}
+
+@media (min-width:1000px){
+  container{
+    margin: 2% 30%;
+  }
+}
